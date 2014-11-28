@@ -1,0 +1,47 @@
+.container.themeRed {
+  background-color: #430006; }
+  .container.themeRed .banner-top2 {
+    background: #430006 url(../images/Viewpoint_1_Banner.png); }
+  .container.themeRed .footerContainer {
+    background-color: #671122; }
+  .container.themeRed .infz-content-container {
+    background-color: #680f22; }
+  .container.themeRed .infz-picture-caption {
+    background-color: rgba(104, 15, 34, 0.7); }
+  .container.themeRed .infz-lesson-opener-content {
+    background-color: #8d1831; }
+  .container.themeRed .infz-lesson-closer-headingPanel {
+    background-color: #8d1831; }
+  .container.themeRed .infz-morePractice-container {
+    background-color: #8d1831; }
+  .container.themeRed .infz-morePractice-tab {
+    background-color: #8d1831; }
+  .container.themeRed .infz-morePractice-left {
+    color: #680f22; }
+  .container.themeRed .infz-list-panel ul {
+    color: #680f22; }
+.container.themeBlue {
+  background-color: #001e37; }
+  .container.themeBlue .banner-top2 {
+    background: #001e37 url(../images/Viewpoint_2_Banner.png); }
+  .container.themeBlue .footerContainer {
+    background-color: #0d4870; }
+  .container.themeBlue .infz-content-container {
+    background-color: #0d4870; }
+  .container.themeBlue .infz-picture-caption {
+    background-color: rgba(13, 72, 112, 0.7); }
+  .container.themeBlue .infz-lesson-opener-content {
+    background-color: #196da6; }
+  .container.themeBlue .infz-lesson-closer-headingPanel {
+    background-color: #196da6; }
+  .container.themeBlue .infz-morePractice-container {
+    background-color: #196da6; }
+  .container.themeBlue .infz-morePractice-tab {
+    background-color: #196da6; }
+  .container.themeBlue .infz-morePractice-left {
+    color: #0d4870; }
+  .container.themeBlue .infz-list-panel ul {
+    color: #0d4870; }
+
+.infz-image-float {
+  border: 1px solid #8d1831; }

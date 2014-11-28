@@ -1,0 +1,431 @@
+@charset "UTF-8";
+
+html {
+	position: relative;
+	min-height: 100%;
+}
+body {
+	margin: 0;
+	padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p, h1, h2 {
+	margin:0;
+	padding:0;
+}
+p {
+	line-height: 1.3em;
+}
+
+/* ------------------------ GENERAL ------------------------ */
+.wrapper {
+	text-align:center;
+}
+.container {
+	margin: 0 auto;
+	width: 960px;
+	position: relative;
+	overflow: hidden;
+}
+.infz-content-container ul {
+	margin: 0.8em 4%;
+	padding: 0 0 0 1em;
+	color: white;
+}
+.infz-content-container ul li {
+	margin: 0.3em 0;
+	line-height: 1.3em;
+}
+.infz-button {
+	display: table;
+	float: right;
+	clear: right;
+	background-color: #2b2b2b;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	margin: -0.5em 2em 0.5em 0;
+	box-shadow:2px 2px 6px rgba(0,0,0,0.6);
+	-moz-box-shadow: 2px 2px 6px rgba(0,0,0,0.6);
+	-webkit-box-shadow: 2px 2px 6px rgba(0,0,0,0.6);
+	border: 1px solid white;
+	cursor:pointer;
+	color: white;
+}
+.infz-button:hover {
+	color:#edd398;
+}
+.infz-btn-graphic {
+	display: table-cell;
+	vertical-align: middle;
+	padding: 0.5em;
+}
+.infz-btn-graphic img {
+	width:80%;
+	vertical-align: middle;
+}
+.infz-btn-text {
+	display: table-cell;
+	padding: 0.5em 1em 0.5em 0;
+	vertical-align: middle;
+	font-size:14px;
+	line-height:1.4em;
+	text-shadow: 1px 1px 2px rgba(0,0,0,0.9);
+}
+.banner-top2 {
+	width:960px;
+	background-color: #7e7e7e;
+	min-height:45px;
+	position:relative;
+	-moz-box-shadow: 0 4px 6px rgba(0,0,0,0.7);
+	-webkit-box-shadow: 0 4px 6px rgba(0,0,0,0.7);
+	box-shadow: 0 4px 6px rgba(0,0,0,0.7);
+	z-index:3;
+}
+.footerContainer {
+	background-color: #ccc;
+	width:960px;
+	height:40px;
+	margin: 0 auto;
+	padding:0;
+	position:relative;
+	bottom:0;
+	z-index:7;
+}
+
+/* ------------------------ UNIT OPENER ------------------------ */
+h1.infz-unit-opener {
+	color: white;
+	font-size: 2em;
+	margin-bottom: 0.5em;
+	text-shadow: 2px 2px 2px rgba(0,0,0,0.8);
+	letter-spacing: 1px;
+	padding: 0 3.5%;
+}
+h1.infz-unit-opener span.infz-h1-subText {
+	margin-left: 0.8em;
+	font-weight: normal;
+}
+.infz-content-container {
+	margin: 1.5em;
+	padding: 1.5em 0;
+	text-align: left;
+	-webkit-border-top-left-radius: 50px;
+	-moz-border-radius-topleft: 50px;
+	border-top-left-radius: 50px;
+	position: relative;
+}
+.infz-picture-container {
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+}
+.infz-picture-container + .infz-picture-container  {
+	margin-top: 0.9em;
+}
+.infz-picture-content {
+	float: left;
+	width:45.4%;
+	height:311px;
+	border: 1px solid white;
+	position: relative;
+	margin: 0 0 0 2.1em;
+}
+.infz-picture-content + .infz-picture-content {
+	position: absolute;
+	right: 2.1em
+}
+.infz-bg-image-a {
+	background:#2b2b2b url(../images/unit-opener-a.jpg) no-repeat 50% 50%;
+	background-size: cover;
+}
+.infz-bg-image-b {
+	background:#2b2b2b url(../images/unit-opener-b.jpg) no-repeat 50% 50%;
+	background-size: cover;
+}
+.infz-bg-image-c {
+	background:#2b2b2b url(../images/unit-opener-c.jpg) no-repeat 50% 50%;
+	background-size: cover;
+}
+.infz-bg-image-d {
+	background:#2b2b2b url(../images/unit-opener-d.jpg) no-repeat 50% 50%;
+	background-size: cover;
+}
+.infz-picture-caption {
+	-webkit-border-top-left-radius: 20px;
+	-moz-border-radius-topleft: 20px;
+	border-top-left-radius: 20px;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+.infz-caption {
+	font-weight: bold;
+	padding: 0.3em 1.5em;
+	color: white;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+	/*letter-spacing: 1px;*/
+	font-size: 1.3em;
+	line-height: 1em;
+}
+.infz-caption span {
+	font-weight: normal;
+	letter-spacing: 0;
+	font-size: 0.75em;
+}
+
+/* ------------------------ LESSON OPENER ------------------------ */
+.infz-lesson-opener-content {
+	padding: 1em 0 0 0;
+	width: 100%;
+	margin-bottom: -3em;
+}
+.infz-lesson-opener-content img {
+	width: 100%;
+	margin-bottom: -4px;
+}
+.infz-lesson-opener-content p {
+	color: white;
+	padding: 0 4%;
+}
+h1.infz-lesson-head {
+	color: white;
+	font-size: 2em;
+	margin-bottom: 0.5em;
+	text-shadow: 2px 2px 2px rgba(0,0,0,0.8);
+	letter-spacing: 1px;
+	padding: 0 4%;
+}
+h1.infz-lesson-head span.infz-h1-subText {
+	margin-left: 0.8em;
+	font-weight: normal;
+}
+h2.infz-lesson-head {
+	color: white;
+	font-size: 1.5em;
+	margin-bottom: 0.1em;
+	padding: 0 4%;
+	text-shadow: 2px 2px 2px rgba(0,0,0,0.8);
+	letter-spacing: 1px;
+}
+h2.infz-lesson-head span.infz-h2-subText {
+	margin-left: 0.8em;
+	font-weight: normal;
+}
+
+/* ------------------------ LESSON CLOSER ------------------------ */
+h1.infz-lesson-head.infz-LC {
+	font-size: 1.3em;
+}
+h2.infz-lesson-head.infz-LC {
+	font-size: 1.1em;
+}
+.infz-lesson-closer-headingPanel {
+	background-color: #8d1831;
+	padding: 0;
+	width: 100%;
+	margin-top: 1em;
+}
+.infz-lesson-closer-headingPanel h3 {
+	color: white;
+	font-size: 1.8em;
+	line-height: 1.8em;
+	margin: 0;
+	padding: 0 4%;
+	text-shadow: 2px 2px 2px rgba(0,0,0,0.8);
+}
+.infz-list-panel {
+	background-color: white;
+	padding: 2% 2% 2.5em 4%;
+}
+.infz-list-panel ul {
+	margin: 0.8em 0 0 0;
+	padding-left: 1.4em;
+	width: 515px;
+}
+.infz-list-panel ul li {
+	position: relative;
+	list-style-type: none;
+	margin: 0.5em 0 0 0;
+	width: 100%;
+	line-height: 1.4em;
+}
+.infz-list-panel ul li:before {
+	margin-right: 0.4em;
+	position: absolute;
+	left: -1.4em;
+	top: 0.15em;
+	display: block;
+	content: "";
+	width: 1.2em;
+	height: 1.2em;
+	background: transparent url('../images/bullet_tick.png') no-repeat;
+}
+.infz-image-float {
+	float: right;
+	clear: right;
+	width: 285px;
+	border: 1px solid white;
+	background-color: #008f58;
+	position:relative;
+	right:37px;
+	top:6px;
+	overflow:hidden;
+	box-shadow:3px 3px 6px rgba(0,0,0,0.3);
+	-moz-box-shadow: 3px 3px 6px rgba(0,0,0,0.3);
+	-webkit-box-shadow: 3px 3px 6px rgba(0,0,0,0.3);
+}
+.infz-image-float img {
+	width: 100%;
+	height: auto;
+	display:block;
+	position: relative;
+}
+/**/
+.infz-morePractice-container {
+	width: 100%;
+	margin: 0;
+	padding: 1em 0 0.5em 0;
+	position: relative;
+}
+.infz-morePractice-tab {
+	-webkit-border-top-left-radius: 10px;
+	-webkit-border-top-right-radius: 10px;
+	-moz-border-radius-topleft: 10px;
+	-moz-border-radius-topright: 10px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	padding: 0.5em 0 0 0;
+	position: absolute;
+	top: -1em;
+}
+.infz-morePractice-tab p {
+	color: white;
+	padding: 0 1.7em;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+.infz-morePractice-panel {
+	margin: 1em 4%;
+	display: table;
+	width: 92%;
+	background-color: rgba(255,255,255,0.6)
+}
+.infz-morePractice-panel p {
+	padding: 0.8em 0.5em;
+}
+.infz-morePractice-left,
+.infz-morePractice-right {
+	display: table-cell;
+	vertical-align: middle;
+}
+.infz-morePractice-left {
+	width:30%;
+	font-weight: bold;
+}
+.infz-morePractice-right {
+	width:70%
+}
+.infz-close-bottomUp {
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+.infz-morePractice-container .infz-morePractice-right p {
+	margin: 0;
+	padding: 0.2em 0;
+}
+.infz-morePractice-container ul {
+	color: black;
+	margin-left: 0;
+}
+
+/* ------------------------ UNIT CLOSER ------------------------ */
+p.infz-morePracice-instruction {
+	font-weight: bold;
+	margin: 1em 2em 0 2em;
+	color: white;
+}
+p.infz-morePracice {
+	margin: 0 2em 0 2em;
+	padding: 0;
+	color: white;
+}
+.infz-closer-circleList-container {
+	margin: 0 2em;
+	position: relative;
+	overflow: hidden;
+}
+.infz-closer-circleList-box {
+	float: left;
+	width: 48%;
+}
+.infz-closer-circleList-box + .infz-closer-circleList-box {
+	position: absolute;
+	right: 0;
+}
+.infz-closer-circleList-box ol {
+	list-style: none;
+	counter-reset: numList;
+	margin-left: 1em
+}
+.infz-closer-circleList-box ol li {
+	position: relative;
+	margin: 0.7em 0;
+	line-height: 1.4em;
+	color: white;
+}
+.infz-closer-circleList-box ol li:before {
+	counter-increment: numList;
+	content: counter(numList, upper-alpha);
+	position: absolute;
+	left: -2.85em;
+	font-weight: bold;
+	font-size: 1.2em;
+	text-align: center;
+	color: #fff;
+	line-height: 29px;
+	padding: 0.2em;
+	width: 28px; height: 28px;
+	background: black;
+	-moz-border-radius: 999px;
+	border-radius: 999px
+}
+.startNum3 {
+	counter-reset: numList 2;
+}
+.infz-list-container {
+	position: relative;
+	overflow: hidden;
+	padding-bottom: 0.5em;
+}
+.infz-list-container table {
+	width: 100%;
+	margin-top: 0.5em;
+}
+.infz-list-container table td {
+	width: 50%;
+	vertical-align: top;
+}
+.infz-list-container table tr + tr td {
+	padding-top: 0.5em;
+}
+.infz-list-container table td ul {
+	width: 90%;
+	margin-top: 0;
+}
+.infz-list-container table td ul li {
+	margin-top: 0;
+}
+
+/*.infz-list-box {
+	float: left;
+	width: 48%;
+}
+.infz-list-box + .infz-list-box {
+	float: right;
+}
+.infz-list-box ul {
+	width: 93%;
+}*/
+
+
